@@ -26,10 +26,17 @@ let tipoCorteza=["Estilo New York", "Estilo Detroit", "Sin Gluten"];
 let tipoSalsa=["Napolitana", "Carnivora", "Alemana"];
 let quesos=["Cheddar", "Mozzarella", "Parmesano"];
 let salsas=["Aceitunas", "Tomate", "Cebolla Carmelizada"];
-let pizzaRandon = pizzaOven(
+let pizzaRandon1 = pizzaOven(
                 tipoCorteza[Math.floor(Math.random()* 3)],
                 tipoSalsa[Math.floor(Math.random()* 3)],
                 quesos[Math.floor(Math.random()* 3)],
                 salsas[Math.floor(Math.random()* 3)]
 );
-console.log(pizzaRandon);
+let pizzaRandon2 = pizzaOven(
+    tipoCorteza[Math.floor(Math.random()* 3)],
+    tipoSalsa[Math.floor(Math.random()* 3)],
+    quesos[Math.floor(Math.random()* 3)],
+    salsas[Math.floor(Math.random()* 3)]
+);
+console.log(pizzaRandon1);
+console.log(pizzaRandon2);
